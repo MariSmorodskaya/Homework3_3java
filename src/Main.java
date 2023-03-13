@@ -12,6 +12,6 @@ public class Main {
         System.out.printf("Выплата период 2 года= %.0f%n", paymentPeriodTwoYears);
 
         double paymentPeriodThreeYears = service.calculate(1000000.0, 36);
-        System.out.printf("Выплата период 3 года = %.0f%n " , paymentPeriodThreeYears);
+        System.out.printf("Выплата период 3 года = %.0f%n ", paymentPeriodThreeYears);
     }
 }
